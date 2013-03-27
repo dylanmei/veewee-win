@@ -1,2 +1,12 @@
 # Woodcarver: Windows from scratch
 # Adapted from https://github.com/hh/windows-fromscratch
+
+[after editing the definitions, install windows on vm]
+veewee vbox build windows-2008r2-pe2.7 (--force)
+
+[export a new vagrant .box file]
+vagrant basebox export windows-2008r2-pe2.7 (--force)
+
+[import the box ('vagrant box remove' old one first)]
+vagrant box add 'windows-2008r2-pe2.7' 'windows-2008r2-pe2.7.box'
+
