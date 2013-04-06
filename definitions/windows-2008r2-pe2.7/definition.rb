@@ -14,7 +14,7 @@ session = WINDOWS_SESSION.merge({
     :disk_size => '20280', :disk_format => 'VDI', :hostiocache => 'off',
 
     :winrm_user => "vagrant",
-    :winrm_password => "D@rjeelin9",
+    :winrm_password => "vagrant",
 
     :kickstart_port => "7100",
     :postinstall_timeout => "10000",
