@@ -1,4 +1,4 @@
-source :rubygems
-gem "em-winrm"
+source "http://rubygems.org"
+
 gem 'veewee', :github => 'dylanmei/veewee'
-gem 'vagrant-windows', :github => 'dylanmei/vagrant-windows', :branch => 'master'
+gem "em-winrm"
