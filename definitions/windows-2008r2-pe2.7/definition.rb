@@ -19,10 +19,10 @@ session = WINDOWS_SESSION.merge({
     :kickstart_port => "7100",
     :postinstall_timeout => "10000",
     :postinstall_files => [
-      "install-vbox.bat",
       "open-firewall.bat",
       # "install-chef.bat",
       "install-puppet.bat",
+      "install-vbox.bat",
     ],
   })
 
